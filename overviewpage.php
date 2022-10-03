@@ -7,7 +7,7 @@
 	$username = $_SESSION['username'];
 
 	// connect to database
-	$conn = mysqli_connect("localhost","olivia","password","coviddb");
+	$conn = mysqli_connect("localhost","olivia","password","database");
 
 	if(!$conn){
 		die("Connection error: " . mysqli_connect_error());
