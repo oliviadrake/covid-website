@@ -6,7 +6,7 @@
     $password = htmlspecialchars($_POST['password']);
 
     // connect to the database
-    $conn = mysqli_connect("localhost","olivia","password","coviddb");
+    $conn = mysqli_connect("localhost","olivia","password","database");
 
     // check connection is established
     if(!$conn){
