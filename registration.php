@@ -39,7 +39,7 @@
         $hashedpwd = md5($password);
 
         // establish connection to the database
-        $conn = mysqli_connect("localhost","olivia","password","coviddb");
+        $conn = mysqli_connect("localhost","olivia","password","database");
 
         if(!$conn){
             die("Connection error: " . mysqli_connect_error());
