@@ -7,7 +7,7 @@
         $time = $_POST["time"];
 
         // connect to database
-    	$conn = mysqli_connect("localhost","olivia","password","coviddb");
+    	$conn = mysqli_connect("localhost","olivia","password","database");
 
         // check connection
     	if(!$conn){
